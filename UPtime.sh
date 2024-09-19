@@ -1,3 +1,5 @@
+#!/bin/bash
+
 awk '{
     sec = int($1)
     day = int(sec/3600/24)
